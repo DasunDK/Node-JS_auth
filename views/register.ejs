@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+</head>
+
+<body>
+    <h1>Register</h1>
+
+    <form action="/auth/register" method="post" enctype="application/x-www-form-urlencoded">
+        <labal>User Name</labal>
+        <input type="text" name="username">
+
+        <labal>Password</labal>
+        <input type="password" name="password">
+
+        <labal>Confirm Password</labal>
+        <input type="password" name="confirmpassword">
+
+        <label>Location</label>
+        <input type="text" name="location">
+
+        <button type="submit">Register Now</button>
+    </form>
+</body>
+
+</html>
